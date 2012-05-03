@@ -1,16 +1,16 @@
 %define		_state		stable
 %define		orgname		kgamma
-%define		qtver		4.8.0
+%define		qtver		4.8.1
 
 Summary:	A monitor calibration tool
 Summary(pl.UTF-8):	Narzędzie do kalibracji monitora
 Name:		kde4-kgamma
-Version:	4.8.2
+Version:	4.8.3
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	297b8f7b17eee60648a98b04800eaf83
+# Source0-md5:	c96049f4bd867dbde72e852994f17a16
 URL:		http://www.kde.org/
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{version}
