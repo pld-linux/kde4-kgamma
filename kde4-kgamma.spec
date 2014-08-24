@@ -5,12 +5,12 @@
 Summary:	A monitor calibration tool
 Summary(pl.UTF-8):	Narzędzie do kalibracji monitora
 Name:		kde4-kgamma
-Version:	4.13.2
+Version:	4.14.0
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	c89dc3a4d44d312c93d978bd3f8a0d0e
+Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
+# Source0-md5:	098578e49727efb472a3331cd2287996
 URL:		http://www.kde.org/
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{version}
