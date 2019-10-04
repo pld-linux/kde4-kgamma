@@ -1,0 +1,10 @@
+--- kgamma-4.14.3/CMakeLists.txt~	2014-10-09 09:07:16.000000000 +0200
++++ kgamma-4.14.3/CMakeLists.txt	2019-10-04 10:24:50.138865040 +0200
+@@ -3,6 +3,7 @@
+ find_package(KDE4 REQUIRED)
+ include(KDE4Defaults)
+ include(MacroLibrary)
++include(CheckIncludeFiles)
+ 
+ find_package(X11 REQUIRED)
+ 
